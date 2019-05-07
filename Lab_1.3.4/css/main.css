@@ -1,0 +1,40 @@
+header, footer {
+    background-color: #fc7123;
+    padding: 25px;
+}
+
+footer {
+    text-align: right;
+}
+
+header button, footer button {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.content {
+    padding: 15px;
+    margin: 20px;
+    border: black solid;
+    background-color: beige;
+}
+
+.task {
+    background-color: #c1edfa;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.content > button {
+    background-color: darkred;
+    color: white;
+}
+
+.MoreB {
+    background-color: #6e6965;
+    color: white;
+}
+
+
