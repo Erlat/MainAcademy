@@ -1,0 +1,120 @@
+body {
+    margin: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header div {
+    padding-right: 10px;
+    background-color: #7f7f7f;
+    text-align: right;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+}
+footer {
+    display: flex;
+    height: 200px;
+}
+.header-box-1 {
+    flex: 1;
+}
+.header-box-2 {
+    flex: 3;
+}
+.header-box-3 {
+    flex: 6;
+}
+
+.container {
+    display: flex;
+}
+.container-4 {
+    flex: 1;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    align-self: start;
+}
+.container-5-6 {
+    flex: 8;
+
+}
+.container-5 {
+    background-color: #737373;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+.container-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.container6-box {
+    background-color: #737373;
+    width: 239px;
+    height: 100px;
+    margin: 10px;
+}
+.container-7-8-9 {
+    display: flex;
+}
+.container-7 {
+    background-color: #000;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    height: 90px;
+    align-self: flex-end;
+}
+.container-8-9 {
+    flex: 8;
+    display: flex;
+}
+.container-8, .container-9 {
+    background-color: #737373;
+    margin: 10px;
+    padding: 10px;
+}
+.container-8 {
+    flex: 4;
+}
+.container-9 {
+    flex: 4;
+}
+.container-10 {
+    flex: 3;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.container-10 ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    font-size: 18px;
+    list-style-type: none;
+}
+.container-11 {
+    flex: 3;
+    color: white;
+}
+.container-12-13 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.container-10, .container-11, .box-12, .box-13{
+    background-color: #000;
+    margin: 10px;
+    padding: 10px;
+}
+.box-12, .box-13 {
+    flex: 4;
+}
